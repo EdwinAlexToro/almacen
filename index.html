@@ -12,7 +12,7 @@
         <form action="" method="post">
             <fieldset>
                 <legend>Productos</legend>
-                <div id="form-group">
+                <div class="form-group">
                     <label for="">Producto</label>
                     <input type="text" class="form-control" name="nombre-producto" id="nombre-producto">
                     <label for="" class="precio">Codigo</label>
@@ -23,17 +23,25 @@
                     <input type="number" class="form-control" name="precio2-producto" id="precio2-producto">
                     <label for="" class="precio">Precio3: </label>
                     <input type="number" class="form-control" name="precio3-producto" id="precio3-producto">
+                    <input type="button" class="form-control btn-guardar" name="btn-guardar-producto" id="btn-guardar-producto" value="guardar">
                 </div>
             </fieldset>
             <fieldset>
                 <legend>Vendedor</legend>
-                <div id="form-group">
-                    <label for=""></label>
+                <div class="form-group">
+                    <label for="">Nombre:</label>
                     <input type="text" class="form-control" name="nombre-vendedor" id="nombre-vendedor">
+                    <label for="">Apellido:</label>
+                    <input type="text" class="form-control" name="apellido-vendedor" id="apellido-vendedor">
+                    <label for="">Cedula:</label>
+                    <input type="text" class="form-control" name="cedula-vendedor" id="cedula-vendedor">
+                    <label for="">Nacimiento:</label>
+                    <input type="text" class="form-control" name="nacimiento-vendedor" id="nacimiento-vendedor">
+                    <button type="button" class="form-control btn-guardar" name="btn-guardar-vendedor" id="btn-guardar-vendedor">Guardar</button>
                 </div>
             </fieldset>
         </form>
     </div>
-    
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
